@@ -1,35 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from "react";
+import { BrowserRouter } from "react-router-dom";
 
-function App() {
-  const [count, setCount] = useState(0)
+import {
+  About,
+  Contact,
+  Experience,
+  Home,
+  Navbar,
+  Skills,
+  Projects,
+  Footer,
+} from "./components";
+
+const App = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <BrowserRouter>
+      <div className={`${darkMode ? "bg-primary" : "bg-gray"} relative z-0`}>
+        <div className="bg-cover bg-no-repeat bg-center">
+          <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+          <Home darkMode={darkMode} />
+        </div>
+        <About darkMode={darkMode} />
+        <Experience darkMode={darkMode} />
+        <Skills darkMode={darkMode} />
+        <Projects />
+        <Contact />
+        <Footer />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;
