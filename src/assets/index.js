@@ -6,31 +6,40 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import profile from "./lysreypov.jpg";
+import aboutPicture1 from "./about_pic_1.jpg";
+import myCV from "./pdf/lysreypov_cv.pdf";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import jquery from "./tech/jquery.png";
+import postgresql from "./tech/postgresql.svg";
+import bootstrap from "./tech/bootstrap.svg";
+import odoo from "./tech/odoo.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import kit from "./company/kit.png";
+import kd from "./company/kd.png";
+import freelance from "./company/freelance.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import weather_app from "./weather_app.png";
+import pollify_app from "./pollify_app.png";
+import portfolio from "./portfolio.png";
 
 export {
+  profile,
+  aboutPicture1,
+  myCV,
   logo,
   backend,
   creator,
@@ -40,23 +49,26 @@ export {
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
   javascript,
-  mongodb,
-  nodejs,
   reactjs,
   redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  jquery,
+  postgresql,
+  bootstrap,
+  odoo,
+  kit,
+  kd,
+  freelance,
   carrent,
   jobit,
   tripguide,
+  weather_app,
+  pollify_app,
+  portfolio,
 };
