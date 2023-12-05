@@ -1,5 +1,4 @@
 import logo from "./logo.svg";
-import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -35,7 +34,6 @@ export {
   aboutPicture1,
   myCV,
   logo,
-  web,
   github,
   menu,
   close,
