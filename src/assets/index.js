@@ -1,7 +1,4 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -29,9 +26,6 @@ import kit from "./company/kit.png";
 import kd from "./company/kd.png";
 import freelance from "./company/freelance.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import weather_app from "./weather_app.png";
 import pollify_app from "./pollify_app.png";
 import portfolio from "./portfolio.png";
@@ -41,9 +35,6 @@ export {
   aboutPicture1,
   myCV,
   logo,
-  backend,
-  creator,
-  mobile,
   web,
   github,
   menu,
@@ -65,9 +56,6 @@ export {
   kit,
   kd,
   freelance,
-  carrent,
-  jobit,
-  tripguide,
   weather_app,
   pollify_app,
   portfolio,
